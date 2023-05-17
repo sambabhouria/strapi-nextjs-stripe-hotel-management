@@ -1,3 +1,5 @@
+/* eslint-disable @next/next/no-img-element */
+/* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable react/jsx-key */
 /* eslint-disable @next/next/no-sync-scripts */
 /* eslint-disable @next/next/no-html-link-for-pages */
@@ -52,10 +54,10 @@ const Home = ({ rooms, error }) => {
             />
             <br />
             <center>
-              <h2>Jerry Oluseye</h2>
+              <h2>Samba Bhouria</h2>
 
               {/* <br /> */}
-              <span> Oluseye@gmail.com</span>
+              <span> sambabhouria@gmail.com</span>
             </center>
           </div>
 

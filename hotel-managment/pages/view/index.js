@@ -117,13 +117,13 @@ const Home = () => {
 
             <form className="wid">
               <div className="form-group">
-                <label for="usr">
+                <label htmlFor="usr">
                   Price Per Night: <strong> ${room_price}</strong>
                 </label>
               </div>
               <br />
               <div className="form-group">
-                <label for="usr">Check In Day:</label>
+                <label htmlFor="usr">Check In Day:</label>
                 <input
                   type="date"
                   className="form-control"
@@ -134,7 +134,7 @@ const Home = () => {
               </div>{" "}
               <br />
               <div className="form-group">
-                <label for="usr">Check Out Day:</label>
+                <label htmlFor="usr">Check Out Day:</label>
                 <input
                   type="date"
                   className="form-control"
@@ -145,7 +145,7 @@ const Home = () => {
               </div>{" "}
               <br />
               <div className="form-group">
-                <label for="usr">Enter Email:</label>
+                <label htmlFor="usr">Enter Email:</label>
                 <input
                   type="email"
                   defaultValue=""

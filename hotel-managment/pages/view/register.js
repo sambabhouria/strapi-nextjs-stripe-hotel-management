@@ -60,7 +60,7 @@ const Home = () => {
 
             <br />
             <div className="form-group">
-              <label for="usr">Enter fullname:</label>
+              <label htmlFor="usr">Enter fullname:</label>
               <input
                 type="text"
                 className="form-control"
@@ -70,7 +70,7 @@ const Home = () => {
             </div>
             <br />
             <div className="form-group">
-              <label for="usr">Email address:</label>
+              <label htmlFor="usr">Email address:</label>
               <input
                 type="email"
                 className="form-control"
@@ -80,7 +80,7 @@ const Home = () => {
             </div>
             <br />
             <div className="form-group">
-              <label for="usr">Phone number:</label>
+              <label htmlFor="usr">Phone number:</label>
               <input
                 type="number"
                 className="form-control"
@@ -90,7 +90,7 @@ const Home = () => {
             </div>
             <br />
             <div className="form-group">
-              <label for="usr">Password:</label>
+              <label htmlFor="usr">Password:</label>
               <input
                 type="password"
                 className="form-control"
