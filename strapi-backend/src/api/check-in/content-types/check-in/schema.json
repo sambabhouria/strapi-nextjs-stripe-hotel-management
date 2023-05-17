@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "check_ins",
+  "info": {
+    "singularName": "check-in",
+    "pluralName": "check-ins",
+    "displayName": "check-in"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "customerName": {
+      "type": "string"
+    },
+    "RoomID": {
+      "type": "string"
+    },
+    "BookDate": {
+      "type": "date"
+    },
+    "AmountPaid": {
+      "type": "float"
+    },
+    "Status": {
+      "type": "string"
+    }
+  }
+}

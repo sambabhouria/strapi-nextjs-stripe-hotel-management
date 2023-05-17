@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "rooms",
+  "info": {
+    "singularName": "room",
+    "pluralName": "rooms",
+    "displayName": "room"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "roomName": {
+      "type": "text",
+      "required": true
+    },
+    "roomDescription": {
+      "type": "text"
+    },
+    "roomPrice": {
+      "type": "integer"
+    },
+    "roomStatus": {
+      "type": "string"
+    },
+    "Link": {
+      "type": "string"
+    }
+  }
+}
